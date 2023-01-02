@@ -1,14 +1,3 @@
-name: "SPIRV-Tools"
-description:
-    "The SPIR-V Tools project provides an API and commands for processing "
-    "SPIR-V modules."
-
-third_party {
-  url {
-    type: GIT
-    value: "https://github.com/KhronosGroup/SPIRV-Tools.git"
-  }
-  version: "eea449a1e82ab6a860b68f9b0a23f0432fe9939f"
-  license_type: NOTICE
-  last_upgrade_date { year: 2018 month: 12 day: 17 }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ef452f2cd280b8b3820f4129ee193881486653b059f1a2257e6cf516658f1e7
+size 365

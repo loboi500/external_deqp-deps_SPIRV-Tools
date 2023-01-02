@@ -1,26 +1,3 @@
-use_relative_paths = True
-
-vars = {
-  'github': 'https://github.com',
-
-  'effcee_revision': '2ec8f8738118cc483b67c04a759fee53496c5659',
-  'googletest_revision': '3af06fe1664d30f98de1e78c53a7087e842a2547',
-  're2_revision': 'ca11026a032ce2a3de4b3c389ee53d2bdc8794d6',
-  'spirv_headers_revision': 'faa570afbc91ac73d594d787486bcf8f2df1ace0',
-}
-
-deps = {
-  'external/effcee':
-      Var('github') + '/google/effcee.git@' + Var('effcee_revision'),
-
-  'external/googletest':
-      Var('github') + '/google/googletest.git@' + Var('googletest_revision'),
-
-  'external/re2':
-      Var('github') + '/google/re2.git@' + Var('re2_revision'),
-
-  'external/spirv-headers':
-      Var('github') +  '/KhronosGroup/SPIRV-Headers.git@' +
-          Var('spirv_headers_revision'),
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0bc0ca9e377cda14d7697ae4a79bc0a4d650e6bb4f6973855b8a36d66c03ba5
+size 762
